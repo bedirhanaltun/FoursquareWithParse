@@ -137,6 +137,10 @@ class DetailsViewController: UIViewController,MKMapViewDelegate {
                         let launchOptions = [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving]
                         mapItem.openInMaps(launchOptions: launchOptions)
                     }
+                    
+                    else{
+                        self.showError(title: "Error", message: error?.localizedDescription ?? "")
+                    }
                 }
             }
         }
