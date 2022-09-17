@@ -80,6 +80,7 @@ class LoginScreen: UIViewController {
                     self.showError(title: "Error", message: signUpError?.localizedDescription ?? "Hata")
                 }
                 else{
+                    
                     self.showError(title: "Success", message: "You signed up successfully.")
                     self.performSegue(withIdentifier: "toPlacesVC", sender: nil)
                 }

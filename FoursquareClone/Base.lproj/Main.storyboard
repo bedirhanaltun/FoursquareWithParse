@@ -124,7 +124,7 @@
                     <connections>
                         <outlet property="tableView" destination="yRz-ms-g91" id="ngh-nz-bCO"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="toLoginScreen" modalPresentationStyle="fullScreen" id="mYb-Zb-j7l"/>
-                        <segue destination="fpQ-EE-64p" kind="show" identifier="toOptionsViewController" id="d0i-EV-5mt"/>
+                        <segue destination="fpQ-EE-64p" kind="presentation" identifier="toOptionsViewController" modalPresentationStyle="fullScreen" id="d0i-EV-5mt"/>
                         <segue destination="q0v-yW-L9p" kind="show" identifier="toDetailsViewController" id="lrD-Ve-1v7"/>
                     </connections>
                 </viewController>
@@ -191,7 +191,7 @@
             <objects>
                 <viewController id="fpQ-EE-64p" customClass="OptionsViewController" customModule="FoursquareClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MVn-ig-d8P">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="place name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gw9-HO-u9J">
@@ -210,7 +210,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selectimage" translatesAutoresizingMaskIntoConstraints="NO" id="Uo6-uI-003">
-                                <rect key="frame" x="67" y="321" width="280" height="289"/>
+                                <rect key="frame" x="67" y="341" width="280" height="289"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="280" id="GMb-JM-LMj"/>
                                     <constraint firstAttribute="height" constant="289" id="qo3-vo-ppF"/>
